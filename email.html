@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>A Simple Responsive HTML Email</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+        <style type="text/css">
+        body {margin: 0; padding: 0; min-width: 100%!important;}
+        .content {width: 100%; max-width: 600px;}
+        button{
+          background-color:red;
+          border:none;
+          color: white;
+          
+          
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 12px;
+          margin: 2px 1px;
+          cursor: pointer;
+          
+
+        }
+        @media only screen and (max-width: 856px){
+        #small{
+          display: none;
+        }
+        #mid{
+          width: 100%;
+        }
+         #box{
+          width: 25%;
+         } 
+        }
+       @media only screen and (max-width: 550px){
+        #new img{
+        width: 70%!important;
+        height:50%!important;
+          
+        }
+        #tex p{
+          font-size: 90%!important;
+        } 
+       }
+         
+         @media only screen and (max-width: 375px){
+          #one img{
+            width: 50%!important;
+            height: 50%!important;
+          }
+          #mow a{
+            font-size: 5%;
+          }
+         }
+        p{
+          display: inline;
+        }
+        .button{
+          border-radius: 12px;
+          max-width: 220%!important;
+          padding: 10px;
+        } 
+        .button1{
+          border-radius: 7px;
+          padding: 5px;
+          max-width: 140%!important;
+        }
+        .button2{
+          border-radius: 7px;
+          padding: 5px;
+          max-width: 120%!important;
+        }
+        </style>
+    </head>
+    <body yahoo bgcolor="#f6f8f1">
+        <table style="width:100%;" bgcolor="white" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" style="width:100%;" bgcolor="white">
+ <tr>
+  <td id="one" style="max-width:38.3%;" valign="top">
+   <img src="image\ToyotaLogo.png" alt="ToyotaLogo" style="float: right;max-width: 145%!important;max-height: 100%!important;">
+  </td>
+  <td style="font-size: 0; line-height: 0;visibility: hidden;max-width: 50%;">
+   &nbsp;
+  </td>
+  <td  valign="center" style="text-align: center;max-width: 23.3%;">
+   <b><a id="mow" href=" https://www.google.co.in" style="font-size: 16px; color: red;font-family: arial;text-decoration: none;">FIND A DEALER</a></b>
+  </td>
+  <td style="font-size: 0; line-height: 0;visibility: hidden;max-width: 33.3%;">
+   &nbsp;
+  </td>
+  <td style="max-width: 38.3%" valign="center">
+   <b><a id="mow" href=" https://www.google.co.in" style="font-size: 16px; color: red;font-family: arial;text-decoration: none;">SEARCH INVENTORY</a></b>
+  </td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%;" bgcolor="white" valign="center">
+  <tr>
+  <td id="sec">
+    <center><img src="image\CO200_Image1_Large.jpg" style="max-width: 60%!important;max-height:60%!important;"></center>
+  </td>
+</tr>
+<tr>
+  <td  style="padding: 0px 0px 0px 0px;">
+ <table border="0" cellpadding="0" cellspacing="0" style="width:100%;" bgcolor="white">
+  <tr>
+   <td style="text-align: center;">
+    <p style="font-size:24px;color: red;font-family: arial;"><b>There's a Toyota for you-shop now</b></p>
+    <br/>
+    <p style="font-size:16px;font-family: arial;">It's easy to have peace of mind when you drive a Toyota. Many new 
+<br/>
+      Toyota vehicles now include Toyota Safety Sense (TSS), standard
+      <br/>
+    comprehensive safety packages.</p>
+    <br/>
+    <button class="button"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">LEARN MORE ABOUT TSS</a></button>
+   </td>
+  </tr>
+  <br/>
+  <tr>
+    <td><br/>
+      <br/></td>
+  </tr>
+  <tr>
+  
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:50%;" bgcolor="white">
+      <tr>
+   <td id="small" style="width:20.3%" valign="top">
+  
+   </td>
+   <td id="mid" style="width:59.3%;height: 10%;"  valign="top">
+     <table border="0" cellpadding="0" cellspacing="0" bgcolor="#eaeaea" style="width:100%;">
+       <tr>
+         <td id="new"style="max-width: 50%;" valign="top"><img src="image/CO200_Image2_Large.jpg" style="max-width:180%!important;height:70%!important;"></td>
+         <td id="tex" style="max-width: 50%;">
+          <br/>
+           <p style="font-size: 120%;font-family: arial;display: inline;">Qualified Buyers Get</p>
+           <br/>
+           <b>
+           <p style="font-size: 400%;font-family: arial;color: red;display: inline;">0% APR</p>
+         </b>
+           <br/>
+           <b><p style="font-size: 176%;font-family: arial;display: inline;">for 60 Months</p></b>
+           <br/>
+           <b><p style="font-size: 122%;font-family: arial;color: red;display: inline;">+ $500 Subvention Bonus</p></b>
+           <br/>
+           <p style="font-size: 112%;font-family: arial;display: inline;">on an all-new 2018 Camry</p>
+           <br/>
+           <br/>
+           <br/>
+           <button class="button1"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">SEE OFFER DETAILS</a></button>&nbsp;&nbsp;<button class="button2"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">BUILD & PRICE</a></button>
+           <br/>
+           <br/>
+           <br/>
+           <br/>
+         </td>
+       </tr>
+       
+     </table>
+   </td>
+   <td id="small" style="width:20.3%" valign="top">
+    
+   </td>
+ </tr>
+ </table>
+  </tr>
+  <tr>
+   <table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:50%;" bgcolor="white">
+      <tr>
+   <td id="small" style="width:20.3%;" valign="top">
+    
+   </td>
+   <td id="mid" style="width: 59.3%;"  valign="top">
+     <table border="0" cellpadding="0" cellspacing="0" style="width:100%;" bgcolor="white">
+       <tr valign="top">
+         <td id="new" style="max-width: 50%;"><img src="image/CO200_Image3_Large.jpg" style="max-width:180%!important;max-height:70%!important;"></td>
+         <td id="tex" style="max-width: 50%">
+          <br/>
+           <p style="font-size: 120%;font-family: arial;display: inline;">Qualified Buyers Get</p>
+           <br/>
+           <b><p style="font-size: 400%;font-family: arial;color: red;display: inline;">0% APR</p></b>
+           <br/>
+           <b><p style="font-size: 176%;font-family: arial;display: inline;">for 72 Months</p></b>
+           <!-- <p style="font-size: 18.6px;font-family: arial;position: relative;top:-170px;color: red;">+ $500 Subvention Bonus</p> -->
+           </b>
+           <br/>
+           <p style="font-size: 112%;font-family: arial;display: inline;">
+           on a new 2018 Corolla LE</p>
+           <br/>
+           <br/>
+           <br/>
+           <button class="button1"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">SEE OFFER DETAILS</a></button>
+            &nbsp;<button class="button2"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">BUILD & PRICE</a></button>
+           <br/>
+           <br/>
+           <br/>
+           <br/>
+         </td>
+       </tr>
+       
+     </table>
+   </td>
+   <td  id="small" style="width: 20.3%" valign="top">
+
+   </td>
+ </tr>
+ </table>
+  </tr>
+  <tr>
+    <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+      <tr>
+   <td id="small" style="width:20.3%;" valign="top"> 
+   </td>
+   <td id="mid"style="width: 59.3%;"  valign="top">
+     <table border="0" cellpadding="0" cellspacing="0"   bgcolor="#eaeaea" style="width: 100%;">
+       <tr valign="top">
+         <td id="new" style="max-width: 50%;"><img src="image/CO200_Image4_Large.jpg" style="max-width:180%!important;max-height:70%!important;"></td>
+         <td id="tex" style="max-width: 50%;">
+          <br/>
+           <p style="font-size: 120%;font-family: arial;display: inline;">Qualified Buyers Get</p>
+           <br/>
+           <b><p style="font-size: 400%;font-family: arial;color: red;display: inline;">0% APR</p></b>
+           <br/>
+           <b><p style="font-size: 176%;font-family: arial;display: inline;">for 72 Months</p></b>
+           <br/>
+           <b><p style="font-size: 112%;font-family: arial;color: red;display: inline;">+ $500 Subvention Bonus</p>
+           </b>
+           <br/>
+           <p style="font-size: 112%;font-family: arial;display: inline;">on a new 2018 RAV4 LE</p>
+           <br/>
+           <br/>
+           <br/>
+           <button class="button1"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">SEE OFFER DETAILS</a></button>
+              &nbsp;<button class="button2"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">BUILD & PRICE</a></button>
+         <br/>
+         <br/>
+         <br/>
+         <br/>
+         </td>
+       </tr>
+        </table>
+   </td>
+   <td id="small" style="max-width:20.3%;" valign="top">
+   </td>
+ </tr>
+ </table>
+  </tr>
+  <tr>
+    <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width: 100%;height: 50%;">
+      <tr>
+   <td id="small" style="max-width: 20.3%;" valign="top">
+    </td>
+   <td id="mid" valign="top" style="width: 59.3%;">
+     <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width: 100%;">
+       <tr valign="top">
+         <td id="new" style="width:58%;"><img src="image/CO200_Image5_Large.jpg" style="max-width:180%!important;max-height:70%!important;"></td>
+         <td id="tex" style="width:42%;">
+          <br/>
+           <p style="font-size: 120%;font-family: arial;display: inline;">Qualified Buyers Get</p>
+           <br/>
+           <b><p style="font-size: 400%;font-family: arial;color: red;display: inline;">0% APR</p></b>
+           <br/>
+           <b><p style="font-size: 176%;font-family: arial;display: inline;">for 72 Months</p></b>
+           <br/>
+           <b><p style="font-size: 112%;font-family: arial;color: red;display: inline;">+ $1,500 Special Edition Bonus</p></b>
+           <br/>
+           <p style="font-size: 112%;font-family: arial;display: inline;">on a new 2018 Tundra Special Edition</p>
+           <br/>
+           <br/>
+           <br/>
+           <button class="button1"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">SEE OFFER DETAILS</a></button>
+           &nbsp;<button class="button2"><a href="https://www.google.co.in" style="text-decoration: none;color: white;">BUILD & PRICE</a></button>
+         <br/>
+         <br/>
+         <br/>
+         <br/>
+         </td>
+       </tr>
+       
+     </table>
+   </td>
+   <td id="small" style="max-width: 20.3%;" valign="top">
+
+   </td>
+ </tr>
+ </table>
+  </tr>
+  <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+  <tr>
+    <td>
+      <br/>
+      <br/>
+    </td>
+  </tr>
+</table>
+  <tr>
+
+    <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+      <tr>
+   <td id="small" style="width: 20.3%;" valign="top">
+
+   </td>
+   <td id="mid" style="max-width: 59.3%;"  valign="center" style="">
+     <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;" bgcolor="white"">
+       <tr>
+        
+         <td>
+          <center><img src="image/CO200_Image6_Large.jpg" style="max-width: 100%!important;max-height:50%!important;"></center></td>
+       </tr>
+       
+     </table>
+   </td>
+   <td id="small" style="width:20.3%;" valign="top">
+
+   </td>
+ </tr>
+ <tr>
+   <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+  <tr>
+    <td>
+      <br/>
+      <br/>
+    </td>
+  </tr>
+</table>
+ </tr>
+
+ </table>
+ <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+  <tr>
+    <td id="small" style="width: 20.3%;" valign="top">
+    
+   </td>
+    <td id="mid" style="max-width: 59.3%;" valign="center">
+      <center><img src="image/CO200_Image7_Large.jpg" style="max-width:90%!important;max-height:30%!important;"></center>
+    </td>
+    <td id="small" style="width: 20.3%;" valign="top">
+    
+   </td>
+  </tr>
+</table>
+  </tr>
+  <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+  <tr>
+  <td id="small" style="width: 20.3%;">
+    
+  </td>
+    <td  id="box"style="text-align: center;width: 14.85%;">
+   <b><a href=" https://www.google.co.in" style="font-size: 80%; color: red;font-family: arial;text-decoration: none;">FIND A DEALER</a></b>
+  </td>
+    <td  id="box"valign="center" style="text-align: center;width: 14.85%;"><b><a href=" https://www.google.co.in" style="font-size: 80%; color: red;font-family: arial;text-decoration: none;">FIND YOUR TOYOTA</a></b></td>
+    <td id="box" valign="center" style="text-align: center;width: 14.85%;">
+      <b><a href=" https://www.google.co.in" style="font-size: 80%; color: red;font-family: arial;text-decoration: none;">FIND YOUR TOYOTA</a></b>
+    </td>
+    <td id="box" style="max-width: 14.85%;"><img src="image/ToyotaLogo.png" style="max-width: 170%!important;max-height:90%!important;"></td>
+     <td id="small" style="width: 20.3%;">
+    
+  </td>
+  </tr>
+</table>
+  <tr>
+    <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+      <tr>
+        <td>
+          <br/>
+        </td>
+      </tr>
+    </table>
+  </tr>
+  <tr>
+    <table border="0" cellpadding="0" cellspacing="0" bgcolor="white" style="width:100%;height:50%;">
+      <tr>
+        <td style="width:20.3%;"></td>
+        <td style="max-width:59.3%;max-height:100%;" bgcolor="#eaeaea">
+         <center>
+         <p> 
+           <br/>
+
+          <p style="font-size: 80%;font-family: arial;">
+         1 Drivers are responsible for their own safe driving. Always pay attention to your surroundings and drive
+safely. System effectiveness is dependent on many factors including road, weather and vehicle conditions.
+See Owner’s Manual for additional limitations and details.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+2 AVAILABLE TO QUALIFIED CUSTOMERS who finance a new 2018 Camry through Toyota Financial
+Services. Higher rates apply for customers with lower credit ratings. Specific vehicles are subject to
+availability. APR may not be combined with any other Customer Cash or lease offers. Monthly payment
+for every $1,000 financed is $16.67. Must take retail delivery from dealer stock. Dealer sets final actual
+price. Offer valid 03-01-2018 through 04-02-2018 in AR, LA, MS, OK, TX only. Contact participating dealer
+for details.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+3 $500 Subvention Bonus enhancement from TMS, GST, TFS on a new 2018 Camry available to qualified
+customers. Must be applied to down payment. Must take delivery from dealer stock. Dealer sets final
+actual price. Offer valid 03-01-2018 through 04-02-2018 in AR, LA, MS, OK, TX only. Contact participating
+dealer for details.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+4 AVAILABLE TO QUALIFIED CUSTOMERS who finance a new Corolla 2018 Models 1872,1874,1852
+through Toyota Financial Services. Higher rates apply for customers with lower credit ratings. Specific
+vehicles are subject to availability. APR may not be combined with any other Customer Cash or lease
+offers. Monthly payment for every $1,000 financed is $13.89. Must take retail delivery from dealer stock.
+Dealer sets final actual price. Offer valid 03-01-2018 through 04-02-2018 in AR, LA, MS, OK, TX only.
+Contact participating dealer for details.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+5 AVAILABLE TO QUALIFIED CUSTOMERS who finance a new RAV4 2018 Models 4430,4432 through
+Toyota Financial Services. Higher rates apply for customers with lower credit ratings. Specific vehicles are
+subject to availability. APR may not be combined with any other Customer Cash or lease offers. Monthly
+payment for every $1,000 financed is $13.89. Must take retail delivery from dealer stock. Dealer sets final
+actual price. Offer valid 03-01-2018 through 04-02-2018 in AR, LA, MS, OK, TX only. Contact participating
+dealer for details.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+6 $500 Subvention Bonus enhancement from TMS, TFS on a new RAV4 2018 Models 4430,4432 available
+to qualified customers. Must be applied to down payment. Must take delivery from dealer stock. Dealer
+sets final actual price. Offer valid 03-01-2018 through 04-02-2018 in AR, LA, MS, OK, TX only. Contact
+participating dealer for details.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+7 AVAILABLE TO QUALIFIED CUSTOMERS who finance a new 2018 Tundra Special Edition through
+Toyota Financial Services. Higher rates apply for customers with lower credit ratings. Specific vehicles are
+subject to availability. APR may not be combined with any other Customer Cash or lease offers. Monthly
+payment for every $1,000 financed is $13.89. Must take retail delivery from dealer stock. Dealer sets final
+actual price. Offer valid 03-01-2018 through 04-02-2018 in AR, LA, MS, OK, TX only. Contact participating
+dealer for details. Offer Excludes TRD Pro Edition.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+8 $1,500 Special Edition Bonus enhancement from TMS, GST on a new 2018 Special Edition Tundra.
+Must take delivery from dealer stock. Dealer sets final actual price. Offer valid 03-01-2018 through 04-02-
+2018 in AR, LA, MS, OK, TX only. Contact participating dealer for details. Offer Excludes TRD Pro Edition.
+9 ToyotaCare covers normal factory scheduled service for 2 years or 25,000 miles, whichever comes
+first. See Toyota dealer for details and exclusions. Valid only in the continental U.S. and Alaska.
+You received this message because you once submitted your email address to or requested information
+from Toyota. Gulf States Toyota does not sell or rent your email address to any third parties. To learn more,
+view our privacy policy <a href="https://www.google.co.in">here</a>. To adjust your email preferences or to unsubscribe from email advertisements
+from Gulf States Toyota, Inc. <a href="https://www.google.co.in">click here</a>.
+</p>
+<br/>
+<br/>
+<p style="font-size: 80%;font-family: arial;">
+This email was sent by Gulf States Toyota, Inc. P.O. Box 442166, Houston, Texas 77244-2168, USA.
+All trademarks and registered trademarks are property of their respective owners. © 2018 Gulf States
+Toyota, Inc. All rights reserved.
+          </p>
+
+          <br/>
+          <br/></p></center>
+        </td>
+        <td style="width:20.3%;"></td>
+      </tr>
+    </table>
+  </tr>
+ </table>
+</td>
+</tr>
+</table>
+
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
